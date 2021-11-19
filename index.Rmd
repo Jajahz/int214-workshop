@@ -1,6 +1,6 @@
 ---
 title: "INT214: Workshop"
-author: "by: _____________"
+author: "by: Asamaporn Pladsri"
 output: html_document
 ---
 
@@ -20,7 +20,7 @@ library(rmarkdown)
 
 #### Import Dataset
 ```{r dataset, warning=FALSE}
-int214 <- read_csv("db_int214.csv")
+int214 <- read_csv("https://raw.githubusercontent.com/Jajahz/int214-workshop/main/db_int214.csv");
 ```
 
 ### 2.) Explore Data
